@@ -17,18 +17,26 @@
   --name : Workshop: Energy Time Series Storage and Analytics ; /*Not working, TODO*/
 }
 
-.backgrounds { /* Change the logo urls in the line after if needed */
+body { /* Change the logo urls in the line after if needed */
+    background: url("img/kit_logo.jpg"), url("img/esd_logo.png"), url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='40px' width='auto'><text x='0' y='20' fill='grey' font-size='30'> Workshop: Energy Time Series Storage and Analytics </text></svg>");
+    background-size: 10%, 10%, 95%;
+    background-position: 5% 5%, 95% 5%, bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+/*
+.backgrounds { 
     background: url("img/kit_logo.jpg"), url("img/esd_logo.png");
     background-size: 10%, 10%;
     background-position: 5% 5%, 95% 5%;
     background-repeat: no-repeat, no-repeat;
 }
 
-.slides { /* Change the name in the line after if needed */
+.slides {
     background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='30px' width='auto'><text x='0' y='15' fill='grey' font-size='20'> Workshop: Energy Time Series Storage and Analytics </text></svg>");
     background-position: bottom ;
     background-repeat: no-repeat;
 }
+*/
 
 .reveal .progress span {
   background: var(--color-1);
