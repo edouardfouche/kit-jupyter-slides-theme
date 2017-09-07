@@ -24,7 +24,7 @@ This should give you something like this:
 For people using the RISE extension (https://github.com/damianavila/RISE/) 
 - Clone this repository 
 - Put the `custom.css` file and `ìmg` folder where your notebook (`.ipynb`) lives
-- Add this to at the beginning of your notebook:
+- Add this at the beginning of your notebook:
 
 ```python
 %%HTML
