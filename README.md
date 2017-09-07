@@ -37,6 +37,8 @@ For example:
 
 Then, it should work during live reveal. This is a bit hacky but ok. 
 
+I found the hack here: https://github.com/damianavila/RISE/issues/95
+
 # Customize it
 
 Modify whatever you want in the `css` file (this is pretty straightforward).
