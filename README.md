@@ -1,8 +1,8 @@
 # kit-jupyter-slides-theme
 
-(in)official css theme for KIT presentations with jupyter notebook slideshow
+- (un)official css theme for KIT presentations with jupyter notebook slideshow
 
-This folder contains some `css` and images to customize jupyter notebook presentation to for KIT presentations. It is reponsible and further customizable. 
+This repository contains some `css` and images to customize jupyter notebook presentation for KIT presentations. It is responsible and further customizable. 
 
 # Try it
 
@@ -11,22 +11,22 @@ This folder contains some `css` and images to customize jupyter notebook present
 
 This should give you something like this: 
 
-![screenshot](/img/screen1.png)
+![screenshot](/screen1.png)
 
 # How to use it
 
-- Clone the repository 
-- Put the `custom.css` file and `ìmg` folder where your slides (`.ipynb`) lives
-- execute `jupyter nbconvert <yourslides>.ipynb --to slides --post serve`
+- Clone this repository 
+- Put the `custom.css` file and `ìmg` folder where your notebook (`.ipynb`) lives
+- execute `jupyter nbconvert <yournotebook>.ipynb --to slides --post serve`
 
 # Customize it
 
-Modify whatever you want in the `css` file (this is pretty straightforward)
+Modify whatever you want in the `css` file (this is pretty straightforward).
 
 For example:
-- The two logo
-- The name of the slide in the footer
-- The colors on the arrow and progress bar 
+- Change the logos / logo paths
+- The name in the footer
+- The colors on the arrows and progress bar 
 
 # Still to do
 
