@@ -13,11 +13,29 @@ This should give you something like this:
 
 ![screenshot](/screen1.png)
 
-# How to use it
+# How to use it (jupyter nbconvert)
 
 - Clone this repository 
 - Put the `custom.css` file and `ìmg` folder where your notebook (`.ipynb`) lives
 - execute `jupyter nbconvert <yournotebook>.ipynb --to slides --post serve`
+
+# How to use it (RISE)
+
+For people using the RISE extension (https://github.com/damianavila/RISE/) 
+- Clone this repository 
+- Put the `custom.css` file and `ìmg` folder where your notebook (`.ipynb`) lives
+- Add this to at the beginning of your notebook:
+
+```python
+%%HTML
+<link rel="stylesheet" type="text/css" href="custom.css">
+```
+
+For example:
+
+![screenshot](/screen2.png)
+
+Then, it should work during live reveal. This is a bit hacky but ok. 
 
 # Customize it
 
